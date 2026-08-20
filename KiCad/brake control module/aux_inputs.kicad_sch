@@ -1,0 +1,7937 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c5064cc7-7fc8-4561-8cfb-6d91a6d15d02")
+	(paper "A2")
+	(lib_symbols
+		(symbol "Connector:Conn_01x12_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x12_Pin"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x12, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x12_Pin_1_1"
+				(rectangle
+					(start 0.8636 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy 0.8636 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 0.8636 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 0.8636 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 0.8636 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 12.7 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Isolator:TCMT1104"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCMT1104"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN DC opto"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOP*4.4x2.6mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCMT1104_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "1.3mA @ 24v"
+		(exclude_from_sim no)
+		(at 315.976 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3acb23e-2d3f-4032-ba5a-a4b53f0ae1b1")
+	)
+	(junction
+		(at 293.37 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05079690-7ed1-40a4-9f48-83479f29dcc3")
+	)
+	(junction
+		(at 297.18 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126b91e3-179e-4b67-9be0-67ccd0432954")
+	)
+	(junction
+		(at 294.64 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e9ea1fd-db95-439c-ab91-6b5f10061ee4")
+	)
+	(junction
+		(at 295.91 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "249a2fc9-91af-46c1-8225-91f90d61b50a")
+	)
+	(junction
+		(at 293.37 314.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fc8ef1c-8c52-4fa1-9350-f5602f1fceec")
+	)
+	(junction
+		(at 297.18 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7295c1d9-2dd5-48e4-8a82-a5ba076f842b")
+	)
+	(junction
+		(at 290.83 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c8b4774-dc62-452d-ad17-d62dd62f590d")
+	)
+	(junction
+		(at 294.64 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f28cfef-c164-4b24-8c2f-354dff9fc323")
+	)
+	(junction
+		(at 292.1 339.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8231de36-7b94-4850-b18f-ff43109b3ac6")
+	)
+	(junction
+		(at 294.64 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f73046-719a-4c7b-95b9-9b95f2f84a41")
+	)
+	(junction
+		(at 292.1 274.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88181f91-d6e2-49ae-8861-ec23ddde92b6")
+	)
+	(junction
+		(at 295.91 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a8577a5-6b86-473d-8246-de0ae610404c")
+	)
+	(junction
+		(at 293.37 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "900ee4a1-c20d-4387-863a-84eed2ea479f")
+	)
+	(junction
+		(at 292.1 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9912ca6c-58d2-498e-8fb2-cdf66612d7f1")
+	)
+	(junction
+		(at 298.45 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a73b7c4f-08b2-4255-8196-df660e4fdcf7")
+	)
+	(junction
+		(at 295.91 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f41d3d-9d88-4473-b30b-70a9c3180df2")
+	)
+	(junction
+		(at 297.18 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd731eec-c0eb-4c79-a5ce-24b2c8b887eb")
+	)
+	(junction
+		(at 293.37 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03c1a2f-9ac6-40d6-aaa3-5bea7587ff43")
+	)
+	(junction
+		(at 298.45 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1bc4006-b406-476c-b084-829fd68c573f")
+	)
+	(junction
+		(at 294.64 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f1abab-bbcc-44bc-97a6-5ce0d4083c83")
+	)
+	(junction
+		(at 289.56 346.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd81fa34-6db5-4777-9532-c5c4a26a5a0c")
+	)
+	(junction
+		(at 295.91 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5183d3b-7ca6-4588-82f9-aa6f3ff062a5")
+	)
+	(junction
+		(at 290.83 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eba79f83-5211-4d21-b45d-5464dcee70df")
+	)
+	(junction
+		(at 299.72 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f35d17ad-fa7c-46a9-8e60-d1bed960955b")
+	)
+	(wire
+		(pts
+			(xy 294.64 177.8) (xy 297.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063da7c3-f1fc-4d09-8407-ca370b585030")
+	)
+	(wire
+		(pts
+			(xy 292.1 152.4) (xy 292.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a188919-83ac-4912-af70-e3b40b1ea3a1")
+	)
+	(wire
+		(pts
+			(xy 292.1 177.8) (xy 292.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd882d4-e00f-4d8a-acf4-cfb7f5f5f236")
+	)
+	(wire
+		(pts
+			(xy 289.56 346.71) (xy 287.02 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc87cb4-6a99-47fd-82bc-fa90911bc983")
+	)
+	(wire
+		(pts
+			(xy 297.18 144.78) (xy 292.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df1cf43-2c82-4432-9d87-ba7f3025d026")
+	)
+	(wire
+		(pts
+			(xy 341.63 266.7) (xy 341.63 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1bbf1b-ea37-4628-b79a-074e564dd793")
+	)
+	(wire
+		(pts
+			(xy 295.91 128.27) (xy 298.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4f551f-83d9-4dff-8289-dfb13d69fc4b")
+	)
+	(wire
+		(pts
+			(xy 342.9 120.65) (xy 342.9 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dad2e8-34c4-49e5-8dc4-c97bc5f22eba")
+	)
+	(wire
+		(pts
+			(xy 304.8 194.31) (xy 295.91 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b098269-19fd-4684-b3f0-e2cca79adeea")
+	)
+	(wire
+		(pts
+			(xy 342.9 290.83) (xy 342.9 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d17e38d-eb80-4593-87c7-bba9ceee5259")
+	)
+	(wire
+		(pts
+			(xy 295.91 104.14) (xy 298.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e239d2c-9e06-40ec-83eb-52704e630b93")
+	)
+	(wire
+		(pts
+			(xy 341.63 144.78) (xy 341.63 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20554d25-8b0d-4554-8b2e-a9c1a0d8c39e")
+	)
+	(wire
+		(pts
+			(xy 293.37 226.06) (xy 295.91 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212bf399-a069-425d-b00c-203232ab96f7")
+	)
+	(wire
+		(pts
+			(xy 344.17 96.52) (xy 344.17 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2195093f-919f-480c-aa01-a90e20ccf426")
+	)
+	(wire
+		(pts
+			(xy 292.1 274.32) (xy 289.56 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2608d55f-59a0-4fce-9aa9-df802c3bc6ad")
+	)
+	(wire
+		(pts
+			(xy 293.37 201.93) (xy 295.91 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dc1acf-4e44-4c22-96b0-9a0242da4f0a")
+	)
+	(wire
+		(pts
+			(xy 318.77 242.57) (xy 340.36 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc9c9e9-9afa-4849-88ba-c6d78685d0ac")
+	)
+	(wire
+		(pts
+			(xy 289.56 347.98) (xy 289.56 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccf341b-85fe-4db8-b746-1576a3dbaee2")
+	)
+	(wire
+		(pts
+			(xy 292.1 275.59) (xy 292.1 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cffc499-23d5-46c6-8a11-cb22124e64a5")
+	)
+	(wire
+		(pts
+			(xy 293.37 226.06) (xy 290.83 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d58e192-b4d0-4282-87c9-a36d6f846bf8")
+	)
+	(wire
+		(pts
+			(xy 341.63 194.31) (xy 355.6 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301fee79-d978-4d60-8811-dec398675bdc")
+	)
+	(wire
+		(pts
+			(xy 339.09 194.31) (xy 339.09 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ea92c4-f434-4951-9513-c521db7c7cf2")
+	)
+	(wire
+		(pts
+			(xy 297.18 170.18) (xy 292.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a448ce0-d206-426e-b7eb-f414c3c877ee")
+	)
+	(wire
+		(pts
+			(xy 288.29 298.45) (xy 288.29 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a591caf-33c4-4f5e-9e88-3afdd09efaa1")
+	)
+	(wire
+		(pts
+			(xy 294.64 153.67) (xy 294.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdc0fba-f16e-4864-aa42-036e53e7495b")
+	)
+	(wire
+		(pts
+			(xy 300.99 339.09) (xy 292.1 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ca2b4f-3b66-4d02-a0dd-c01b6fd93384")
+	)
+	(wire
+		(pts
+			(xy 302.26 314.96) (xy 293.37 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4312bdf3-d969-4220-8beb-820565fa1f32")
+	)
+	(wire
+		(pts
+			(xy 294.64 152.4) (xy 297.18 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475549e1-3ee9-4254-ab46-c1c373d074ba")
+	)
+	(wire
+		(pts
+			(xy 290.83 323.85) (xy 290.83 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f99eb0-1050-432d-be70-4e641999c11f")
+	)
+	(wire
+		(pts
+			(xy 294.64 152.4) (xy 292.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492163ea-5195-4c08-ad9e-6e3400d5ac3a")
+	)
+	(wire
+		(pts
+			(xy 293.37 290.83) (xy 288.29 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a195d2c-5b6b-4ed9-ad07-1b5b4a29fa2e")
+	)
+	(wire
+		(pts
+			(xy 290.83 299.72) (xy 290.83 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5d9bac-81a5-4638-80a0-43d159d7f717")
+	)
+	(wire
+		(pts
+			(xy 345.44 214.63) (xy 355.6 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb66ad4-8684-44eb-b96d-0b7e66225c4c")
+	)
+	(wire
+		(pts
+			(xy 339.09 199.39) (xy 355.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52772baa-ccf3-41c9-ad38-2ec9204c5725")
+	)
+	(wire
+		(pts
+			(xy 293.37 201.93) (xy 290.83 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e9349e-1d34-4673-a77c-762602767334")
+	)
+	(wire
+		(pts
+			(xy 299.72 72.39) (xy 294.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c300545-f704-447e-8f80-29a88bca8f11")
+	)
+	(wire
+		(pts
+			(xy 294.64 179.07) (xy 294.64 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd2c43a-5b08-46e2-b976-740d9c0d9a6f")
+	)
+	(wire
+		(pts
+			(xy 323.85 72.39) (xy 345.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61eb5934-85f2-44ac-9e41-0830f3986dbe")
+	)
+	(wire
+		(pts
+			(xy 289.56 250.19) (xy 289.56 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696122a5-3130-47dd-88bc-10eb70695452")
+	)
+	(wire
+		(pts
+			(xy 341.63 207.01) (xy 355.6 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d723292-f509-4147-bf96-e9d55d3aa055")
+	)
+	(wire
+		(pts
+			(xy 345.44 339.09) (xy 345.44 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec92e04-5ce3-4be9-8eb4-6ef7595bd1de")
+	)
+	(wire
+		(pts
+			(xy 345.44 186.69) (xy 355.6 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a1d909-6fec-4d3b-ad2a-7b70a92cbab5")
+	)
+	(wire
+		(pts
+			(xy 344.17 314.96) (xy 344.17 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d3532c-af1c-4cf0-85b6-2704552ba989")
+	)
+	(wire
+		(pts
+			(xy 340.36 204.47) (xy 355.6 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75197e6a-2773-451b-ad9e-e139c14233fa")
+	)
+	(wire
+		(pts
+			(xy 340.36 170.18) (xy 340.36 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a39652-b06e-45fb-b942-85ba76463757")
+	)
+	(wire
+		(pts
+			(xy 339.09 218.44) (xy 339.09 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77355bc1-a7f3-4632-acab-92d57d8cd562")
+	)
+	(wire
+		(pts
+			(xy 290.83 201.93) (xy 290.83 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bddbf0-63d6-4821-afcd-0237c449593a")
+	)
+	(wire
+		(pts
+			(xy 293.37 314.96) (xy 288.29 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780fc162-b945-4e1b-8477-d8d33e8091df")
+	)
+	(wire
+		(pts
+			(xy 297.18 81.28) (xy 297.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c91a0a7-6306-44e3-b9a8-e453ddc2769f")
+	)
+	(wire
+		(pts
+			(xy 294.64 266.7) (xy 289.56 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d63980d-d4a0-4c2f-ac09-cde2b8f0fbaf")
+	)
+	(wire
+		(pts
+			(xy 316.23 339.09) (xy 345.44 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3fc2a1-4708-4db5-8e5e-130d45ce5b93")
+	)
+	(wire
+		(pts
+			(xy 295.91 194.31) (xy 290.83 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b20296-d0b4-48aa-bd88-060512ee52d2")
+	)
+	(wire
+		(pts
+			(xy 322.58 96.52) (xy 344.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8675c9d2-7932-43e5-a645-869468fc0789")
+	)
+	(wire
+		(pts
+			(xy 295.91 129.54) (xy 295.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f5b685-6c44-4db7-8861-37a781b2bae0")
+	)
+	(wire
+		(pts
+			(xy 303.53 266.7) (xy 294.64 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b21c751-840c-4dd9-b00c-778197290c66")
+	)
+	(wire
+		(pts
+			(xy 292.1 274.32) (xy 294.64 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d32fab5-1711-46fe-a73e-9614cc0def25")
+	)
+	(wire
+		(pts
+			(xy 290.83 322.58) (xy 288.29 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e577af8-388d-42f8-9caf-280d58531c81")
+	)
+	(wire
+		(pts
+			(xy 295.91 105.41) (xy 295.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eef9173-2f74-4a43-9805-f4fdb6bfe3ef")
+	)
+	(wire
+		(pts
+			(xy 298.45 96.52) (xy 293.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9047b1d8-e077-4088-a67d-00955bc89980")
+	)
+	(wire
+		(pts
+			(xy 292.1 250.19) (xy 294.64 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbbaef4-2bad-4ef7-9ee7-dd2e39db0200")
+	)
+	(wire
+		(pts
+			(xy 292.1 251.46) (xy 292.1 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a435f7b9-fd61-4596-953d-197b3b2768c4")
+	)
+	(wire
+		(pts
+			(xy 306.07 170.18) (xy 297.18 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59fd045-4b64-4efb-9149-53cb4e02d32a")
+	)
+	(wire
+		(pts
+			(xy 289.56 274.32) (xy 289.56 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa57f997-aac6-45e6-9440-da406a1fa046")
+	)
+	(wire
+		(pts
+			(xy 340.36 242.57) (xy 340.36 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9d4c3e-94f2-4428-91aa-b646e07e4a1e")
+	)
+	(wire
+		(pts
+			(xy 317.5 314.96) (xy 344.17 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2eac58-bfc9-4378-8d36-7ea4252773e4")
+	)
+	(wire
+		(pts
+			(xy 297.18 80.01) (xy 299.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade36d35-d79e-413a-8d8d-3db8e2265f2a")
+	)
+	(wire
+		(pts
+			(xy 342.9 209.55) (xy 355.6 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae773b72-5d79-4eda-8e86-2e9754966ac5")
+	)
+	(wire
+		(pts
+			(xy 321.31 170.18) (xy 340.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af35058d-1ad4-4f1b-af03-bed36c7ca257")
+	)
+	(wire
+		(pts
+			(xy 303.53 242.57) (xy 294.64 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb8fed5-0748-44c8-b031-8c5aa8da00b9")
+	)
+	(wire
+		(pts
+			(xy 294.64 177.8) (xy 292.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00a31e8-e477-4e95-8b2f-1b620df0a8a0")
+	)
+	(wire
+		(pts
+			(xy 295.91 128.27) (xy 293.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0153c33-712f-49ba-9fd3-1c9666992789")
+	)
+	(wire
+		(pts
+			(xy 290.83 298.45) (xy 293.37 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bf6062-5ff8-4bd0-8fd8-c2fa31adf960")
+	)
+	(wire
+		(pts
+			(xy 304.8 218.44) (xy 295.91 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d4dac9-efd7-4496-9e0b-591e9c1aa764")
+	)
+	(wire
+		(pts
+			(xy 317.5 290.83) (xy 342.9 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b673a47b-9da3-49c5-a378-ebe0eb97951c")
+	)
+	(wire
+		(pts
+			(xy 289.56 346.71) (xy 292.1 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e83ba4-b9d2-40ec-a50e-edc51bdc68fd")
+	)
+	(wire
+		(pts
+			(xy 344.17 189.23) (xy 355.6 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4af9e8-8b90-4b03-a893-186d7b3b835f")
+	)
+	(wire
+		(pts
+			(xy 297.18 80.01) (xy 294.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd54a870-7325-47ab-bca7-a0f12df4267a")
+	)
+	(wire
+		(pts
+			(xy 287.02 346.71) (xy 287.02 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee2306f-7dd9-4761-b847-842eae5d4eb5")
+	)
+	(wire
+		(pts
+			(xy 306.07 144.78) (xy 297.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c007ca48-6898-422d-82ee-d00f11ae5a12")
+	)
+	(wire
+		(pts
+			(xy 321.31 144.78) (xy 341.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b21e21-2ce6-40ae-a8a0-717e96b3ebf0")
+	)
+	(wire
+		(pts
+			(xy 320.04 194.31) (xy 339.09 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b4850a-e51f-47bd-be6b-1e8f948179a0")
+	)
+	(wire
+		(pts
+			(xy 292.1 250.19) (xy 289.56 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12b632e-6f4f-4fad-ad98-f3c9a1035781")
+	)
+	(wire
+		(pts
+			(xy 307.34 96.52) (xy 298.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21aa413-adba-4d24-bed1-85b8fa17dda3")
+	)
+	(wire
+		(pts
+			(xy 294.64 242.57) (xy 289.56 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e04a38-b02e-4132-a2f5-b7a441d98f8c")
+	)
+	(wire
+		(pts
+			(xy 294.64 80.01) (xy 294.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e3d72d-36e6-459d-befd-1df3544d0431")
+	)
+	(wire
+		(pts
+			(xy 293.37 104.14) (xy 293.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc97594c-8171-4c05-a461-0c2378c5d99e")
+	)
+	(wire
+		(pts
+			(xy 295.91 218.44) (xy 290.83 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdd3a89-dd4b-41cb-b357-cbf43a394127")
+	)
+	(wire
+		(pts
+			(xy 308.61 72.39) (xy 299.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd983729-6446-42eb-83a7-3f110ec5c308")
+	)
+	(wire
+		(pts
+			(xy 293.37 128.27) (xy 293.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce597498-3a4a-4a8c-9052-ecd8bcb4548b")
+	)
+	(wire
+		(pts
+			(xy 345.44 72.39) (xy 345.44 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee9c4ad-a48a-45af-b047-4d83ced7e1b7")
+	)
+	(wire
+		(pts
+			(xy 302.26 290.83) (xy 293.37 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef7c958-af04-4df9-8b1a-6a6fdc86dc30")
+	)
+	(wire
+		(pts
+			(xy 340.36 196.85) (xy 355.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dc2d6a-b371-48fe-a1b4-2d9a28770353")
+	)
+	(wire
+		(pts
+			(xy 290.83 322.58) (xy 293.37 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d0f725-7a09-4834-b6a6-90887226a47b")
+	)
+	(wire
+		(pts
+			(xy 307.34 120.65) (xy 298.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6866c1-4309-479d-ac4a-fcc28ae1ed66")
+	)
+	(wire
+		(pts
+			(xy 320.04 218.44) (xy 339.09 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc97b67c-ff3f-463a-8eb2-5f22d4b4cb79")
+	)
+	(wire
+		(pts
+			(xy 339.09 201.93) (xy 355.6 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df27c46f-1fd5-4ad3-8540-35492b2dcf0d")
+	)
+	(wire
+		(pts
+			(xy 292.1 339.09) (xy 287.02 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5c7e0e-74f7-496a-a4cd-37bcd0b0d11c")
+	)
+	(wire
+		(pts
+			(xy 288.29 322.58) (xy 288.29 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e540ecc7-37b5-4ee8-8f4e-9d6a8052f58a")
+	)
+	(wire
+		(pts
+			(xy 344.17 212.09) (xy 355.6 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e727ebd9-a085-44d2-b39d-b1f5e8d8245d")
+	)
+	(wire
+		(pts
+			(xy 318.77 266.7) (xy 341.63 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78d4364-9dcf-4816-aea9-a0b6fc574f13")
+	)
+	(wire
+		(pts
+			(xy 295.91 104.14) (xy 293.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e905c597-7a5b-4904-ae1c-3a19dc153f20")
+	)
+	(wire
+		(pts
+			(xy 298.45 120.65) (xy 293.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed604fa-a7a5-4bda-a706-4b1eec142ca6")
+	)
+	(wire
+		(pts
+			(xy 293.37 203.2) (xy 293.37 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef89529c-3c3c-4959-9cbe-129213dcff2a")
+	)
+	(wire
+		(pts
+			(xy 342.9 191.77) (xy 355.6 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f396fb18-2446-4c97-9893-33e52776c720")
+	)
+	(wire
+		(pts
+			(xy 290.83 298.45) (xy 288.29 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41fe948-859a-4964-8da9-3ea5ce0b3508")
+	)
+	(wire
+		(pts
+			(xy 290.83 226.06) (xy 290.83 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9172f20-cdac-469f-a6f5-fc91a37a4172")
+	)
+	(wire
+		(pts
+			(xy 293.37 227.33) (xy 293.37 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc936484-24de-4f5a-91be-64efd27f6a5f")
+	)
+	(wire
+		(pts
+			(xy 322.58 120.65) (xy 342.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef25421-1970-4d3f-be0e-f0408d3e4143")
+	)
+	(hierarchical_label "INPUT_12"
+		(shape output)
+		(at 271.78 339.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "074e2c7b-565c-44ad-959b-79a43bdbd973")
+	)
+	(hierarchical_label "INPUT_2"
+		(shape output)
+		(at 278.13 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c0f230c-ffed-41fa-92cd-652e7abe070b")
+	)
+	(hierarchical_label "INPUT_1"
+		(shape output)
+		(at 279.4 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3040cf2b-4b32-4dee-8355-58d5bc82126e")
+	)
+	(hierarchical_label "INPUT_8"
+		(shape output)
+		(at 274.32 242.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39dc8961-5c28-4114-8f66-b934661a5cc9")
+	)
+	(hierarchical_label "INPUT_9"
+		(shape output)
+		(at 274.32 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "554fc594-aa2e-42f3-be12-231e058dcaa9")
+	)
+	(hierarchical_label "INPUT_11"
+		(shape output)
+		(at 273.05 314.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79748ccf-a1e9-40b1-9f50-51be334a7106")
+	)
+	(hierarchical_label "INPUT_5"
+		(shape output)
+		(at 276.86 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a48a1bd-4853-4419-814a-e67837ea3d4e")
+	)
+	(hierarchical_label "INPUT_4"
+		(shape output)
+		(at 276.86 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a529187-2c48-46bb-8054-8cd57881ecc3")
+	)
+	(hierarchical_label "INPUT_10"
+		(shape output)
+		(at 273.05 290.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d8bb8bc-c5a6-4f16-bd3f-170de5f7aecd")
+	)
+	(hierarchical_label "INPUT_7"
+		(shape output)
+		(at 275.59 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbd75307-50da-4c03-ae53-3f919c6132ce")
+	)
+	(hierarchical_label "INPUT_6"
+		(shape output)
+		(at 275.59 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6e77c84-f292-4da1-ab2d-552fcbbd537d")
+	)
+	(hierarchical_label "INPUT_3"
+		(shape output)
+		(at 278.13 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f08352ce-ee13-47d9-8ffc-e13937e187b5")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 306.07 290.83 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "027b51d8-ea27-48a1-a7bc-7855daeb99cc")
+		(property "Reference" "R56"
+			(at 306.07 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 306.07 287.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 306.07 292.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f35ef0de-7e57-4c95-bf81-192e455c03cc")
+		)
+		(pin "1"
+			(uuid "ea2c6789-6313-4989-8d97-a56245dc747b")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 280.67 293.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0af59c91-9b38-43ff-a3ba-e09b166770f6")
+		(property "Reference" "U35"
+			(at 280.67 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 280.67 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 280.67 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 280.67 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 280.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71cf50a1-b3bc-4efb-940d-fd569e2fdf99")
+		)
+		(pin "2"
+			(uuid "f59a56e5-8fec-4e8b-a409-567166cf48ad")
+		)
+		(pin "4"
+			(uuid "a4bfc408-61f9-4089-a1dd-76e8ca59c33b")
+		)
+		(pin "3"
+			(uuid "46fbc423-7e20-4a2c-9e30-c9249ab0d7b2")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d6b5330-2609-49df-b45a-c82d4413b2d1")
+		(property "Reference" "#PWR051"
+			(at 295.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 295.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d445008-f7c8-4936-b729-727eb9d0b7e6")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0db2b636-e23d-4223-8b1c-8673c6698683")
+		(property "Reference" "#PWR071"
+			(at 292.1 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 292.1 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "760a63c3-6152-4e34-8126-e14852f5e1dd")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1363096e-8908-40b0-aeb4-357849580f26")
+		(property "Reference" "#PWR059"
+			(at 276.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1bd2417-0554-41dc-a3cc-9af493aaa3e1")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 344.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a46ec3-4ec3-4ee6-969d-6e633dc59b9f")
+		(property "Reference" "#PWR064"
+			(at 271.78 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5af08133-ed50-4218-a8bc-a0aca0b488c2")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 279.4 341.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "217aea5b-4351-4ca1-92aa-f03e3cc3c045")
+		(property "Reference" "U34"
+			(at 279.4 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 279.4 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 279.4 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 279.4 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 279.4 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304704e7-a78e-492f-803a-87a8e96e3c4e")
+		)
+		(pin "2"
+			(uuid "c2e10a55-0c2d-4418-badf-8819d6c37f5a")
+		)
+		(pin "4"
+			(uuid "0ea94527-5b82-4d5a-9bec-2cdb70ef0d29")
+		)
+		(pin "3"
+			(uuid "7bb0425e-c76c-4a90-b610-d55bc9058600")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2579b9e5-e2aa-466f-a4e1-38f290da0e16")
+		(property "Reference" "#PWR065"
+			(at 273.05 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c5f833-5af2-4b02-9fb1-865a7d24fae3")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 309.88 170.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f7d13b-7ef3-4ef8-a52b-9b639fdcef77")
+		(property "Reference" "R50"
+			(at 309.88 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 309.88 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 309.88 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 309.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db608d3f-9f98-4dc4-a105-5634fdc25ca7")
+		)
+		(pin "1"
+			(uuid "f699fbf7-6fff-44b4-b54d-00d4adce1d08")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 308.61 194.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28eab1a0-3232-47b0-9909-f8a2447034da")
+		(property "Reference" "R48"
+			(at 308.61 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 308.61 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 308.61 196.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d44d899-38c3-415b-b9d5-4aeceebaa402")
+		)
+		(pin "1"
+			(uuid "3017a7ff-92fb-4e88-8b77-8912b945d2c1")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 313.69 314.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b6da95f-0686-480a-b9bf-3233b0fb69d8")
+		(property "Reference" "R61"
+			(at 313.69 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 313.69 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 313.69 316.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 313.69 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38fda30c-ba56-4187-9d36-105a5e817bd0")
+		)
+		(pin "1"
+			(uuid "3c594b30-5fcf-4469-80a4-243a7b8f4dbd")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 323.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf96af2-2417-47ab-8151-51ced027654a")
+		(property "Reference" "#PWR070"
+			(at 290.83 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 290.83 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a229c8-c44e-4d93-9872-cc8f0932f223")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 298.45 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6b2c55-92eb-45f4-b852-4bedfd3976ef")
+		(property "Reference" "D24"
+			(at 300.99 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 300.99 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 298.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 298.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "615a607b-a6ee-4778-a797-5c9411dac51a")
+		)
+		(pin "2"
+			(uuid "56b475d1-b8b6-4b39-887a-79c924c1caed")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b2af27-49ea-4be5-b243-f199eb75356e")
+		(property "Reference" "#PWR049"
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4823a5cb-30d0-40e1-b754-f0ce93d46ece")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 292.1 342.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3874e79b-45b0-4d24-87ca-0b2b85d0bfc9")
+		(property "Reference" "D31"
+			(at 294.64 341.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 294.64 344.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 292.1 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 292.1 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 292.1 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 292.1 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c9155e-842d-48f4-8cde-de6eec56d5eb")
+		)
+		(pin "2"
+			(uuid "2a43058a-d647-4e45-88a2-9f0a4af3eebf")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 284.48 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b110dc9-2b0a-437d-8330-3e6612f8aba1")
+		(property "Reference" "U33"
+			(at 284.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 284.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 284.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 284.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 284.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23b77453-68a5-47e3-ad6e-51910c727d48")
+		)
+		(pin "2"
+			(uuid "b983c217-8aa7-4b8c-8572-2267fe65bf1e")
+		)
+		(pin "4"
+			(uuid "ec95af46-b191-48f7-ad1c-338cc72213ee")
+		)
+		(pin "3"
+			(uuid "b6416d2b-72a7-4fdd-91f1-cf4433e423eb")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b95444e-d4bb-419c-8a3a-d298072b9aa7")
+		(property "Reference" "#PWR058"
+			(at 275.59 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5160ce24-0450-4272-a0fe-843e8fafc8d7")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 285.75 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d3d2ccf-b1ae-45f1-b1e0-08c569266b99")
+		(property "Reference" "U27"
+			(at 285.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 285.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 285.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 285.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 285.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "377e57f6-52f7-469a-b303-2eca75ca7f3d")
+		)
+		(pin "2"
+			(uuid "f39f7d99-08f2-40e2-ac49-537f5f1865cd")
+		)
+		(pin "4"
+			(uuid "46893227-3685-4eae-8a17-8d03a8e24230")
+		)
+		(pin "3"
+			(uuid "c22da19f-4bbc-4a62-893d-18e3031132df")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 318.77 96.52 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b5e223-41e6-4b3f-a905-71afea4fa9bb")
+		(property "Reference" "R42"
+			(at 318.77 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 318.77 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 318.77 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 318.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a0e68fc-80a8-4158-8d4c-75758c9e5b55")
+		)
+		(pin "1"
+			(uuid "1d8995d4-c2c1-49a5-a2e8-3951b4b14ed1")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 287.02 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45218711-c61d-4947-ae67-5c775c5f4b91")
+		(property "Reference" "U26"
+			(at 287.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 287.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 287.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 287.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 287.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24cec9ea-1595-4ee5-9cf0-bb8b542c596e")
+		)
+		(pin "2"
+			(uuid "299f16b3-eeee-4898-aad6-69b8711b9868")
+		)
+		(pin "4"
+			(uuid "91a6937f-f915-44a6-b893-342b318630a5")
+		)
+		(pin "3"
+			(uuid "d9ced6ba-a4f6-45aa-99bf-d0b35ac510f4")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 304.8 339.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45df653d-cd72-4d95-be59-1353600dbb14")
+		(property "Reference" "R55"
+			(at 304.8 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 304.8 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 304.8 340.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f74917e-7121-4d47-8c6a-32ad21362fde")
+		)
+		(pin "1"
+			(uuid "8064377a-b5ad-4276-9356-2a0176108f8f")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47cd787b-30bb-4625-99b6-db4dede54e85")
+		(property "Reference" "#PWR060"
+			(at 294.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 294.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a89c56bb-d6f3-4efc-94c5-d9c046179aa1")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4933f246-7c06-4c03-a50c-5c9ea501d3f2")
+		(property "Reference" "#PWR050"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e40bae9-90f2-4a58-bb41-ea3eef5516a1")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x12_Pin")
+		(at 360.68 199.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49706bf7-7a0f-4e8e-be41-b01d5c239088")
+		(property "Reference" "J7"
+			(at 361.95 201.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "INPUTS"
+			(at 361.95 199.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:2x06_P3.5_KF2EDGSR"
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2119144d-f098-4748-a9b8-30ad44da4552")
+		)
+		(pin "4"
+			(uuid "141645a4-991d-4b88-8304-467eb3f94297")
+		)
+		(pin "11"
+			(uuid "efdb2ac7-ac7d-44dc-922e-c38e83aa2754")
+		)
+		(pin "9"
+			(uuid "82fad497-47b1-43a7-8d73-d28200b39a24")
+		)
+		(pin "2"
+			(uuid "ce538230-edcc-45ac-8e6f-9857d83b0923")
+		)
+		(pin "5"
+			(uuid "1d60ec86-fc38-47e4-ad8f-b3417a7a782b")
+		)
+		(pin "7"
+			(uuid "40ce8788-0de5-4a70-abe7-e0ec2d956268")
+		)
+		(pin "1"
+			(uuid "6e773ffd-29cb-47f6-b221-f43075c84173")
+		)
+		(pin "8"
+			(uuid "9349fa11-1fed-4032-8ae0-256e84d965ad")
+		)
+		(pin "12"
+			(uuid "041f78f5-1af6-47f8-b5f0-075ed94e991a")
+		)
+		(pin "10"
+			(uuid "8004b5cc-ec84-434c-9333-361b6d60ccf7")
+		)
+		(pin "3"
+			(uuid "5d643d33-c0ee-404f-aa4f-77ff0eb54caa")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 299.72 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c714311-9562-481b-8f25-b35464c828df")
+		(property "Reference" "D23"
+			(at 302.26 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 302.26 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 299.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 299.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 299.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 299.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca416efe-b4ab-485e-a58c-aa319da49329")
+		)
+		(pin "2"
+			(uuid "af13f218-0f2c-4502-b48a-e6e17edab7b2")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 316.23 218.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c7708f6-703b-4a2c-834e-182f5abf0492")
+		(property "Reference" "R53"
+			(at 316.23 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 316.23 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 316.23 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 316.23 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7efa6eef-eaf6-4fe6-b08c-b3c115fde4b0")
+		)
+		(pin "1"
+			(uuid "e8721c8c-7e37-4c39-a3d8-68da27b70134")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 295.91 222.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5704b446-89b9-4064-96d4-b79962f33ff8")
+		(property "Reference" "D29"
+			(at 298.45 220.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 298.45 223.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 295.91 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 295.91 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 295.91 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 295.91 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aff1119-99ec-4e42-b965-372054f7a9cc")
+		)
+		(pin "2"
+			(uuid "f85f35a8-fc50-4862-bf0e-e9e8592a0110")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 285.75 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "593d9cfe-027b-4eea-a6d9-71ee171a3195")
+		(property "Reference" "U29"
+			(at 285.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 285.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 285.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 285.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 285.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e4e862-e408-4ff1-afe8-475b3c506e69")
+		)
+		(pin "2"
+			(uuid "e3cfad1c-2bdc-4128-97f0-207b6eb72428")
+		)
+		(pin "4"
+			(uuid "a8dedd7c-8082-450b-89cb-30b0d4a359a7")
+		)
+		(pin "3"
+			(uuid "51ee75b2-6219-40d4-bd95-9fcd8b378e5d")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6735a120-ceef-4cf1-9abc-05026222590a")
+		(property "Reference" "#PWR054"
+			(at 295.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 295.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a26438f9-3aff-45bb-9862-3e179a0535d5")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 312.42 339.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6ef9b0-c814-4b96-8663-b0783879349d")
+		(property "Reference" "R59"
+			(at 312.42 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 312.42 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 312.42 340.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 312.42 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0be3dd73-18f5-4fc0-bcac-9153d268741b")
+		)
+		(pin "1"
+			(uuid "9ff822b8-02e7-4c36-83a5-93ec1fd29863")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dac9bb4-b133-41c5-975d-2d628190efc5")
+		(property "Reference" "#PWR066"
+			(at 273.05 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42bc2391-7379-41a2-90c2-190e8df5d8c4")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 266.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8a9069-260f-4ce5-9fe1-70bd74cb678d")
+		(property "Reference" "R58"
+			(at 307.34 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 307.34 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 307.34 268.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 307.34 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20866dc2-d4bc-48ba-a465-321ba2228c06")
+		)
+		(pin "1"
+			(uuid "d657c8a4-1adc-47ba-9f14-d1d9d1e19d2a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 306.07 314.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731e0d65-fa21-42dd-9321-ecdbc5aed47b")
+		(property "Reference" "R57"
+			(at 306.07 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 306.07 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 306.07 316.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a5270f0-c1e3-47b6-ab45-b85d63cbcd90")
+		)
+		(pin "1"
+			(uuid "1c5d31ab-97fe-481c-849f-13394d5f0a4a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 317.5 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7339f0d7-2269-4bae-b038-adb26b73c417")
+		(property "Reference" "R45"
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 317.5 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 317.5 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 317.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77f91bdb-3781-4cae-96dd-5a6c8370a1ae")
+		)
+		(pin "1"
+			(uuid "0a144508-546d-41a1-894b-9d29a9285aad")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7538a509-d439-46f9-aa8d-8b3b70a3c7d6")
+		(property "Reference" "#PWR062"
+			(at 293.37 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 293.37 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 293.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b1f504-837a-4d41-9a8e-facdb7a75e79")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 318.77 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7649bd30-a19e-4012-8c4d-151c4f8c4982")
+		(property "Reference" "R46"
+			(at 318.77 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 318.77 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 318.77 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 318.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e857d8f2-9931-415a-acae-b4609c57417c")
+		)
+		(pin "1"
+			(uuid "9c6d8489-0b08-4d5a-84c8-2292f1e50a43")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 317.5 170.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7800c3e5-a9ae-47e6-8851-3188364d4f17")
+		(property "Reference" "R54"
+			(at 317.5 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 317.5 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 317.5 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 317.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "690d0f80-047d-4219-95c1-6ea74badacaa")
+		)
+		(pin "1"
+			(uuid "9b53f149-fc8f-4709-acfc-ea4d4242b6b5")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ed32125-9971-43d2-ab41-c58c3ca70489")
+		(property "Reference" "#PWR057"
+			(at 275.59 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40477fb-ec27-42a8-ae6f-8a9c7672810e")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 280.67 317.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "834dec15-4054-45b6-bfc5-f683eac5afde")
+		(property "Reference" "U36"
+			(at 280.67 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 280.67 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 280.67 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 280.67 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 280.67 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9bb6913-60b7-4ad1-b614-5147ed8c12c7")
+		)
+		(pin "2"
+			(uuid "4ca31b17-0992-4a3f-9c24-688998c82373")
+		)
+		(pin "4"
+			(uuid "155763c6-6cd1-4ff1-b7ce-9ba7efb2a4dc")
+		)
+		(pin "3"
+			(uuid "94446c50-b2bc-4845-8efe-3cbaf408eeda")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 281.94 245.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "867a62a4-19fc-4707-ba8d-df52aa1fba0a")
+		(property "Reference" "U30"
+			(at 281.94 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 281.94 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 281.94 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 281.94 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 281.94 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b66560-0162-4521-b6a6-5a875b675d58")
+		)
+		(pin "2"
+			(uuid "dc78496b-e90c-46a6-9d9a-430f3b27e505")
+		)
+		(pin "4"
+			(uuid "0d5b7683-83ab-49ed-b98f-5c3335eef228")
+		)
+		(pin "3"
+			(uuid "fb24dbba-672d-4dfd-beb1-134d27aa9cdd")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 311.15 96.52 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88306850-be2e-4565-9300-b65268f31f79")
+		(property "Reference" "R39"
+			(at 311.15 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 311.15 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 311.15 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 311.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45ba8821-e8b8-4430-9abc-afe8f5e8d3fb")
+		)
+		(pin "1"
+			(uuid "f656c5fe-9ab5-462c-ac59-bbdf7d2f776f")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 314.96 266.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "896e0bd8-44af-42ca-a757-6a29c778bb9d")
+		(property "Reference" "R62"
+			(at 314.96 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 314.96 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 314.96 268.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 314.96 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44cbab3d-861c-48e7-868d-919dfa603630")
+		)
+		(pin "1"
+			(uuid "675e4190-c0ad-4afd-ab54-51fa07c9a624")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 295.91 198.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a448e62-830c-49b3-abad-256da8b92dd9")
+		(property "Reference" "D28"
+			(at 298.45 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 298.45 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 295.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 295.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 295.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 295.91 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d286a977-b84d-4572-bfef-7bd75f36c7cc")
+		)
+		(pin "2"
+			(uuid "8b2de5fb-91b8-4b35-9007-667c06e2a26b")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90727498-0a52-47f9-8a12-575a7551164b")
+		(property "Reference" "#PWR063"
+			(at 292.1 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 292.1 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b607012-c2d3-4c00-a926-c38ec1a63b8c")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 294.64 246.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9569ac59-c1d5-4090-8c6f-77f8d0f8acb6")
+		(property "Reference" "D27"
+			(at 297.18 245.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 297.18 247.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 294.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 294.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 294.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 294.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76906c05-2eb9-4c22-b62d-3e746027ca66")
+		)
+		(pin "2"
+			(uuid "1600c896-3ad5-4c67-bb21-411aa4b0284f")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9963fdcc-478c-47a5-aa01-6ac19f439bd3")
+		(property "Reference" "#PWR055"
+			(at 294.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 294.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bd73bd1-f65e-4b8f-8020-fd1f53db6d0c")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 316.23 194.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ace08b-f562-458e-b5bb-60e5c3befe86")
+		(property "Reference" "R52"
+			(at 316.23 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 316.23 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 316.23 196.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 316.23 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "110cdd12-0d21-4a62-9ba1-62291d25e46d")
+		)
+		(pin "1"
+			(uuid "53cce2e5-ac6f-4b1f-b2bf-fcec8017a935")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 284.48 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a468312b-3462-4eb8-ba3c-ff9699158cbc")
+		(property "Reference" "U28"
+			(at 284.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 284.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 284.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 284.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 284.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b15350-feea-4648-9aa1-765466ab8e32")
+		)
+		(pin "2"
+			(uuid "32f41ca4-df5e-42f8-a630-9f1ec83b649a")
+		)
+		(pin "4"
+			(uuid "bd5b9a9b-87eb-4aec-b5f8-4ac040f78307")
+		)
+		(pin "3"
+			(uuid "d382b9cb-8da6-4cf5-ad48-725db81dc634")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 294.64 270.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a79bef8f-3503-49f5-920b-b5247305f6c0")
+		(property "Reference" "D34"
+			(at 297.18 269.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 297.18 271.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 294.64 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 294.64 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 294.64 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 294.64 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b6418a-6276-4217-b300-896457ee43c7")
+		)
+		(pin "2"
+			(uuid "b3932ee2-0921-427a-9a10-00b2ae66965a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 297.18 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac444887-ec99-43b6-bcf7-727a7a99ffcf")
+		(property "Reference" "D25"
+			(at 299.72 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 299.72 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 297.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "677f2a93-7270-4ea0-a1e9-eb1f18cadf9d")
+		)
+		(pin "2"
+			(uuid "55c34586-401c-4a69-9fc9-00a077523883")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 298.45 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac5189bf-f870-47ba-a06d-a9f15f57525a")
+		(property "Reference" "D26"
+			(at 300.99 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 300.99 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 298.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 298.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 298.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 298.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d84953-e47c-4303-8aa0-cd7913702d58")
+		)
+		(pin "2"
+			(uuid "4801cc3e-9fbd-493a-be41-2460d884714c")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac67ae88-5567-4ddb-a609-44bfbc2d2c50")
+		(property "Reference" "#PWR052"
+			(at 276.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94e22dbc-8510-4711-a809-73eca9824c74")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 283.21 220.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac9cb654-731c-4932-bb7c-6f34a88bb07a")
+		(property "Reference" "U32"
+			(at 283.21 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 283.21 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 283.21 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 283.21 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 283.21 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c2c4ec-1b21-44e6-a371-8f0791ef1c48")
+		)
+		(pin "2"
+			(uuid "fc8844c3-1eda-40cf-9afc-0a291005bf95")
+		)
+		(pin "4"
+			(uuid "e1418e2e-85b1-4e0d-8bbb-3a715b5741be")
+		)
+		(pin "3"
+			(uuid "36243337-b760-4929-8dbb-c35c8cb939bf")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 283.21 196.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19129b0-f7c8-4e13-b835-7b88d0d8e0d8")
+		(property "Reference" "U31"
+			(at 283.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 283.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 283.21 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 283.21 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 283.21 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be92e312-59da-46b4-b765-25a6a767aca5")
+		)
+		(pin "2"
+			(uuid "3c34d473-2e90-49be-9b79-388b6add147f")
+		)
+		(pin "4"
+			(uuid "1b8fb1bf-7db1-4fb9-812e-090ab4181994")
+		)
+		(pin "3"
+			(uuid "335a4950-3c46-4740-9c0c-3d8dbb18c071")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 308.61 218.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31403dd-8ce0-468d-bb60-b012b7d8bd87")
+		(property "Reference" "R49"
+			(at 308.61 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 308.61 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 308.61 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 308.61 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91326b2a-d7d9-4fc6-984e-3dab8e7c6ac0")
+		)
+		(pin "1"
+			(uuid "11f967e6-3e77-416b-9a7b-c67ed9cc750a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5954a72-8533-4475-a6b0-0c11a80632c8")
+		(property "Reference" "#PWR067"
+			(at 274.32 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f29b1f15-5345-4860-a5e8-1a1ccd9278a2")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 293.37 294.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bac6b4c6-f3a6-429c-89d0-6fbb443cbcd7")
+		(property "Reference" "D32"
+			(at 295.91 293.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 295.91 295.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 293.37 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 293.37 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 293.37 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 293.37 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d07ecfce-a7c1-4073-90a2-359666a765a7")
+		)
+		(pin "2"
+			(uuid "c3352cf3-a7ea-47ac-96d5-def50668737a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 293.37 318.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be42d0a9-2376-4715-91f8-7bc52b108da8")
+		(property "Reference" "D33"
+			(at 295.91 317.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 295.91 320.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 293.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 293.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 293.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 293.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c3daef-ef34-4f36-825c-5c11fa822a55")
+		)
+		(pin "2"
+			(uuid "d69a7ae8-5419-40ec-888d-c8670627c578")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 311.15 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c27f6c94-bfaf-4dcb-9ec1-127c78f4d896")
+		(property "Reference" "R44"
+			(at 311.15 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 311.15 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 311.15 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 311.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b3bc903-b899-4de4-890a-5e2ee3a27b64")
+		)
+		(pin "1"
+			(uuid "4f022e5f-b6e2-4911-8e5c-cf5adc06c09d")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 309.88 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5052c6f-8f5b-4716-802b-fc8fc20d79d3")
+		(property "Reference" "R43"
+			(at 309.88 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 309.88 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 309.88 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 309.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1288dc71-91fc-4330-ab41-92da4dc45e50")
+		)
+		(pin "1"
+			(uuid "9ac834d5-7ac6-4b5e-88e1-681941462757")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 313.69 290.83 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c784b6c0-d1d1-48c9-86f0-8af6fd0cc74b")
+		(property "Reference" "R60"
+			(at 313.69 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 313.69 287.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 313.69 292.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 313.69 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e817badc-a8d0-464d-b9dd-1bcca15c1cc8")
+		)
+		(pin "1"
+			(uuid "2060d5b1-029c-475f-95bd-c328b5448e19")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d00a40b8-27b5-4f7f-ac30-e0bae0ba10cc")
+		(property "Reference" "#PWR053"
+			(at 278.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b0e5fc-0fe4-4115-bdd1-4a60fceae83f")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:TCMT1104")
+		(at 281.94 269.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d29a6204-b7e3-4c25-95a2-5937fbe6cb29")
+		(property "Reference" "U37"
+			(at 281.94 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "140357145400"
+			(at 281.94 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 281.94 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/83510/tcmt1100.pdf"
+			(at 281.94 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4"
+			(at 281.94 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "783e2cb8-6645-40a3-8d17-e04b1abae848")
+		)
+		(pin "2"
+			(uuid "19063bb3-40f8-449a-857a-821c580516e7")
+		)
+		(pin "4"
+			(uuid "9ad53dbd-87f3-4f26-8ddb-08b66f33be74")
+		)
+		(pin "3"
+			(uuid "9e1d97d0-5d2c-4a40-9637-18a87b1b6215")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "U37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 297.18 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d54a8eed-9906-4bd8-b800-ba5d947b50ee")
+		(property "Reference" "D30"
+			(at 299.72 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 299.72 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 297.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 297.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 297.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 297.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df027e86-e391-4566-8daa-e0e24151a18f")
+		)
+		(pin "2"
+			(uuid "e179d796-0ff3-4d1b-85fb-d62da79a5f69")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.18 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ff2bbf-8dad-4985-9b9e-d3caa7a838ce")
+		(property "Reference" "#PWR048"
+			(at 297.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 297.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d41f538-589f-4957-bc6e-304997b49812")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e33e029b-44d0-4120-800b-ec2fb986554f")
+		(property "Reference" "#PWR061"
+			(at 293.37 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 293.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 293.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f11c345c-7396-4844-961f-0eb6d2b2946a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d83399-75d8-4809-9730-a89f70a487a3")
+		(property "Reference" "#PWR056"
+			(at 274.32 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c01b697-a8af-4c7e-9de0-07b9a899f146")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 314.96 242.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7232fd6-c6ee-4987-b928-0457fc4a6d76")
+		(property "Reference" "R51"
+			(at 314.96 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 314.96 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 314.96 244.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 314.96 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8da3706-d4d8-4cbd-9fc2-8671d647246f")
+		)
+		(pin "1"
+			(uuid "92a0b0bd-89da-4183-9fcd-8c14bb30b90a")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 242.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f14cda98-af07-413a-85b2-ae8e61685ae6")
+		(property "Reference" "R47"
+			(at 307.34 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 307.34 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 307.34 244.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 307.34 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a69e509a-ebdf-4cbf-a4ae-6aa8f9035616")
+		)
+		(pin "1"
+			(uuid "de331d7d-bdb2-49db-b2eb-529336531cc0")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 320.04 72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f65edf12-d0d7-4269-8234-363562dc4d2a")
+		(property "Reference" "R41"
+			(at 320.04 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 320.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 320.04 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 320.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8ddab22-3040-4a82-b0b4-62488f910177")
+		)
+		(pin "1"
+			(uuid "00d9a161-2ac7-4ace-83e4-917ea86d40b3")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 312.42 72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f96bf4d8-5170-47e4-93f5-6670f623238c")
+		(property "Reference" "R40"
+			(at 312.42 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9.1k"
+			(at 312.42 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 312.42 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 312.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a999baa-ac73-4c49-96d1-299f092da70d")
+		)
+		(pin "1"
+			(uuid "f32715e7-a477-4b1f-bd41-41c1b9f2ecee")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fae904cf-d4f4-418e-a58a-8289702bd90f")
+		(property "Reference" "#PWR069"
+			(at 290.83 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 290.83 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b4fa14-24ce-4c0e-89b7-64944ec30dea")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 347.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd56c83-5837-4617-ac72-d6ccb6711dbf")
+		(property "Reference" "#PWR068"
+			(at 289.56 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 289.56 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58bb7dac-b426-43ca-b606-660599e5e518")
+		)
+		(instances
+			(project "brake control module"
+				(path "/1fc6c8d2-e283-4a68-9f05-a043cb68e244/db4acb06-ba98-4ec4-a227-a80c5c704b90"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

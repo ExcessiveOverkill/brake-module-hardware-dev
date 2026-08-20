@@ -667,42 +667,6 @@
     [
       "1fc6c8d2-e283-4a68-9f05-a043cb68e244",
       "Root"
-    ],
-    [
-      "a86dad01-b8b1-49b7-be0f-3ebe3c97a860",
-      "Communication"
-    ],
-    [
-      "973b362c-500f-4310-9b50-5deedd89e0b6",
-      "Brake Outputs"
-    ],
-    [
-      "483de75d-bc70-4721-936e-895d183ba0d5",
-      "MCU"
-    ],
-    [
-      "939092ff-ceb9-42e2-bb2a-6761043603d5",
-      "Contactor Relays and Feedback"
-    ],
-    [
-      "db4acb06-ba98-4ec4-a227-a80c5c704b90",
-      "Aux Inputs"
-    ],
-    [
-      "c26d3575-c301-471f-8df5-c64a386fe820",
-      "Brake Relays and Feedback"
-    ],
-    [
-      "28e4d048-c43b-42c3-a8e3-39a8b27faf02",
-      "Estop Chain"
-    ],
-    [
-      "673d68e0-d2dd-4a15-bd9e-6125b19919f6",
-      "Input Shift Registers"
-    ],
-    [
-      "16e17fbf-e1b3-45a2-b85b-de599fd01a1e",
-      "Relay Drivers"
     ]
   ],
   "text_variables": {}

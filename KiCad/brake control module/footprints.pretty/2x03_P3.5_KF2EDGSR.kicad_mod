@@ -1,0 +1,172 @@
+(footprint "2x03_P3.5_KF2EDGSR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND")
+	(tags "THT terminal block RND 205-00001 pitch 5mm size 10x9mm^2 drill 1.3mm pad 2.5mm")
+	(property "Reference" "J3"
+		(at 3.4 -5.9 0)
+		(layer "F.SilkS")
+		(uuid "23a8a650-b013-4ec5-8ea9-ccc005250f2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESTOP EXTERNAL"
+		(at 3.486 -8.128 0)
+		(layer "F.Fab")
+		(uuid "f622e299-699a-4e5e-8161-8f196562f984")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1d9bbf36-bcee-430a-8e0e-9c47e44bb86e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x04, script generated"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "35490de3-f586-42e9-add9-9dd47f768a72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 9.1 1.278)
+		(end -2.102 -10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "10c22905-2ff3-4754-9928-d9a46ae24012")
+	)
+	(fp_rect
+		(start 9.1 1.232)
+		(end -2.056 -10.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2f164788-498b-455b-9c44-4f6a4c46c011")
+	)
+	(fp_line
+		(start -1.138 0.955)
+		(end 0.955 -1.138)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6af51137-e2bc-436f-8814-745520225afe")
+	)
+	(fp_line
+		(start -0.955 1.138)
+		(end 1.138 -0.955)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bf8abb8-b596-495b-bd93-c70d214813ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.2 -11.5 0)
+		(layer "F.Fab")
+		(uuid "54b7593e-124f-4f2d-b619-3115fad3c9ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bda8182-a7d0-4ff9-8098-900a41cc1e2d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9bc3849d-8a3b-4f75-8bd0-8ed3396db116")
+	)
+	(pad "3" thru_hole circle
+		(at 3.5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e6bb69a-1a5e-4b12-b2ed-23025a60195f")
+	)
+	(pad "4" thru_hole circle
+		(at 3.5 -2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6e58ae1-174c-4525-a2ce-7f2169467109")
+	)
+	(pad "5" thru_hole circle
+		(at 7 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8bd66046-2a89-4a3f-aca9-0fed8f720c3e")
+	)
+	(pad "6" thru_hole circle
+		(at 7 -2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39155c58-9328-41f9-a196-7d3af0efb18c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
